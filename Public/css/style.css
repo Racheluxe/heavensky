@@ -1,0 +1,93 @@
+*{margin: 0;}
+body{
+	background-image: url('../img/bg.png');}
+header{
+	background-image: url('../img/s-opcity.png');
+	height: 180px;}
+header .container{
+	height: 150px;
+	width: 470px;
+	margin: 25px auto;
+	padding: 15px;}
+header .container img{height: 100%;}
+.guide{
+	width: 793px;
+	margin: 70px auto;}
+.guide img{
+	width: 100%;}
+.notice,.top,.mid,.form .bottom{
+	background-image: url('../img/slate.jpg');
+	border: 7px solid #100964;
+	margin: -7px 60px;
+	height: 130px;
+	text-align: center;
+	padding: 10px;}
+.notice p{
+	color: #097506;
+	text-shadow: 1px 1px 1px #000;}
+.notice p span{font-size: 20px;}
+.img-box{
+	height: 440px;
+	width: 964px;
+	margin: 70px auto;}
+.img-box .lg div,.img-box .sm div{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;}
+.img-box img{width: 100%;}
+.img-box .lg,.sm{
+	border: 1px solid #100964;
+	margin: 5px;
+	padding: 10px;
+	float: left;
+	overflow: hidden;}
+.img-box .lg{
+	width: 450px;
+	height: 210px;}
+.img-box .sm{
+	width: 289px;
+	height: 140px;}
+.form a{
+	font-size: 20px;
+	color: #097506;}
+.form .top{height: 65px;}
+.form .mid{height: 355px;}
+.form .bottom{height: 440px;}
+.bottom-pic{
+	border: 1px solid #100964;
+	height: 302px;
+	width: 600px;
+	padding: 11px;
+	margin: 70px auto;}
+.more-link,.more-link a{
+	text-align: center;
+	color: #000;
+	font-size: 20px;
+}
+.more-link .icon{
+	width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #000;
+    margin: 10px auto;
+}
+.bottom,footer{
+	background-image: url('../img/b-bg.jpg');
+	height: 150px;
+	text-align: center;
+	padding: 20px;}
+.bottom .title,.bottom .contact{
+	text-align: center;
+	padding-top: 30px;}
+.bottom span,footer span{
+	color: #fff;
+	margin: 10px;
+}
+.bottom .title,.bottom .title span{
+	height: 30px;
+	font-weight: 700;}
+footer{
+	z-index: 1000;
+	bottom: 0;
+	height: 20px;}

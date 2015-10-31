@@ -1,0 +1,114 @@
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/guide.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:13+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:19+08:00 ] 127.0.0.1 /heavensky/memory/public/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/guide.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/03.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/02.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/01.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/04.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/pic/05.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Memory
+
+[ 2015-10-31T11:24:37+08:00 ] 127.0.0.1 /heavensky/memory/public/img/bottom.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Memory
+
