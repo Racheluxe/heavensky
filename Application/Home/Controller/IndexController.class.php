@@ -5,4 +5,8 @@ class IndexController extends Controller {
     public function index(){
         $this->show();
     }
+    public function inrto()
+    {
+    	$this->show();
+    }
 }

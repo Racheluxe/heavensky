@@ -15,13 +15,20 @@ header .container img{height: 100%;}
 	margin: 70px auto;}
 .guide img{
 	width: 100%;}
-.notice,.top,.mid,.form .bottom{
+.notice,.top,.form .bottom{
 	background-image: url('../img/slate.jpg');
 	border: 7px solid #100964;
 	margin: -7px 60px;
 	height: 130px;
 	text-align: center;
 	padding: 10px;}
+.mid{
+	background-image: url('../img/slate.jpg');
+	border: 7px solid #100964;
+	margin: -7px 60px;
+	height: 200px;
+	padding: 10px;
+	}
 .notice p{
 	color: #097506;
 	text-shadow: 1px 1px 1px #000;}
@@ -51,7 +58,7 @@ header .container img{height: 100%;}
 	font-size: 20px;
 	color: #097506;}
 .form .top{height: 65px;}
-.form .mid{height: 355px;}
+.form .mid{height: auto;}
 .form .bottom{height: 440px;}
 .bottom-pic{
 	border: 1px solid #100964;

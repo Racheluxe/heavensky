@@ -112,3 +112,69 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
 ERR: 无法加载模块:Memory
 
+[ 2015-10-31T14:54:40+08:00 ] 127.0.0.1 /heavensky/intro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+ERR: 无法加载模块:Intro
+
+[ 2015-10-31T14:55:54+08:00 ] 127.0.0.1 /heavensky/intro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+ERR: 无法加载模块:Intro
+
+[ 2015-10-31T14:55:55+08:00 ] 127.0.0.1 /heavensky/intro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Intro
+
+[ 2015-10-31T14:58:50+08:00 ] 127.0.0.1 /heavensky/%7BU('intro')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:{U('intro')}
+
+[ 2015-10-31T14:59:06+08:00 ] 127.0.0.1 /heavensky/%7BU('intro')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+ERR: 无法加载模块:{U('intro')}
+
+[ 2015-10-31T14:59:41+08:00 ] 127.0.0.1 /heavensky/%7BU('intro')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+ERR: 无法加载模块:{U('intro')}
+
+[ 2015-10-31T14:59:43+08:00 ] 127.0.0.1 /heavensky/U('intro')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+ERR: 无法加载模块:U('intro')
+
+[ 2015-10-31T15:00:24+08:00 ] 127.0.0.1 /heavensky/U('Home/Index/intro')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+ERR: 无法加载模块:U('Home
+
+[ 2015-10-31T15:00:33+08:00 ] 127.0.0.1 /heavensky/U('Home/Index/intro')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:U('Home
+
+[ 2015-10-31T15:00:55+08:00 ] 127.0.0.1 /heavensky/U('Home/Index/intro')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:U('Home
+
+[ 2015-10-31T15:01:40+08:00 ] 127.0.0.1 /heavensky/U('Home/Index/intro')
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:U('Home
+
