@@ -5,8 +5,15 @@ class IndexController extends Controller {
     public function index(){
         $this->show();
     }
-    public function inrto()
+    public function intro()
     {
+    	$this->assign('id',I('get.id'));
     	$this->show();
+    }
+
+    public function Submit()
+    {
+    	$dbCommit = M('commit');
+    	dump($dbCommit);
     }
 }
