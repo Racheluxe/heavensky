@@ -86,11 +86,11 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $("#btnSubmit").click(function() {
-    	var id = <?php echo ($id); ?>;
+    	var pid = <?php echo ($pid); ?>;
         var nickname = $("#txtNickname").val();
         var commit   = $("#txtCommit").val();
         $.post("<?php echo U('Index/Submit');?>",{
-        	id:id,
+        	pid:pid,
         	nickname:nickname,
         	commit:commit
         },function(back) {

@@ -86,11 +86,11 @@
 <script type="text/javascript">
 $(document).ready(function() {
     $("#btnSubmit").click(function() {
-    	var pid = {$id};
+    	var pid = {$pid};
         var nickname = $("#txtNickname").val();
         var commit   = $("#txtCommit").val();
         $.post("{:U('Index/Submit')}",{
-        	id:id,
+        	pid:pid,
         	nickname:nickname,
         	commit:commit
         },function(back) {
