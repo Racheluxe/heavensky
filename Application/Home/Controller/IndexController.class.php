@@ -13,6 +13,8 @@ class IndexController extends Controller
     {
         $dbComment = M('comment');
         $this->assign('pid', I('get.pid'));
+        $arrComment = $dbComment->where(array('pid'=>I('get.pid')))->order('time desc')->limit(20)->select();
+        $this->assign('arrComment',$arrComment);
         $this->show();
     }
 
