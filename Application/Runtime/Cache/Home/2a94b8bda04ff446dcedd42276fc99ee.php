@@ -42,7 +42,7 @@
 			</div>
 			<div class="mid">
 				<section style="max-width: 100%; margin: 0.8em 0px 0.5em; overflow: hidden; box-sizing: border-box; padding: 0px;"><section class="135brush" data-brushtype="text" placeholder="请输入标题" style="height: 36px; display: inline-block; color: rgb(255, 255, 255); font-size: 16px; font-weight: bold; padding: 0px 10px; line-height: 36px; float: left; vertical-align: top; background-color: rgb(30, 155, 232); box-sizing: border-box !important; margin: 0px;">2013</section>
-				<div style="width:90px;padding:5px;border:2px;display:inline-block"><a href="/heavensky/index.php/Home/Index/intro?id=1"><img src="http://i0.qhimg.com/dr/200__/t014637b89671031f41.jpg"></a></div>
+				<div style="width:90px;padding:5px;border:2px;display:inline-block"><a href="/heavensky/index.php/Home/Index/intro?pid=1"><img src="http://i0.qhimg.com/dr/200__/t014637b89671031f41.jpg"></a></div>
 				
 			</div>
 			<div class="mid">
