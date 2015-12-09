@@ -47,7 +47,7 @@
                 </br>
                 </br>
                 <span style="text-align:left;color:black">评论内容：<br><br></span>
-                <textarea rows="7" cols="100" id="txtCommit" placeholder="在这里你可以写下你的评论"></textarea>
+                <textarea rows="7" cols="100" id="txtComment" placeholder="在这里你可以写下你的评论"></textarea>
                 <br>
                 <br>
                 <button type="button" id="btnSubmit">提交评论</button>
@@ -99,10 +99,17 @@
 <script type="text/javascript">
 $(document).ready(function() {
     var pid = <?=$pid?>;
-    var nickname = $("#txtNickname").val();
     $("#btnSubmit").click(function() {
         var nickname = $("#txtNickname").val();
-        var comment = $("#txtCommit").val();
+        var comment = $("#txtComment").val();
+        if (nickname === "") {
+            alert("请填写昵称");
+            return false;
+        };
+        if (comment === "") {
+            alert("请输入评论内容");
+            return false;
+        };
         $.post("{:U('Index/Submit')}", {
             pid: pid,
             type: 0,
@@ -118,6 +125,11 @@ $(document).ready(function() {
         })
     })
     $("#btnPray").click(function() {
+        var nickname = $("#txtNickname").val();
+        if (nickname === "") {
+            alert("请填写昵称");
+            return false;
+        };
         $.post("{:U('Index/Submit')}", {
             pid: pid,
             type: 1,
@@ -132,6 +144,11 @@ $(document).ready(function() {
         })
     })
     $("#btnFlower").click(function() {
+        var nickname = $("#txtNickname").val();
+        if (nickname === "") {
+            alert("请填写昵称");
+            return false;
+        };
         $.post("{:U('Index/Submit')}", {
             pid: pid,
             type: 2,
