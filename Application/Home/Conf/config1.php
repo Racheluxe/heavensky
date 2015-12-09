@@ -1,7 +1,7 @@
 <?php
 return array(
     'DB_TYPE' => 'mysql',
-    'DB_HOST' => 'heavensky.cn',
+    'DB_HOST' => '121.42.138.128',
     'DB_NAME' => 'heavensky',
     'DB_USER' => 'root',
     'DB_PWD' => '',

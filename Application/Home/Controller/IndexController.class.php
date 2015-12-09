@@ -12,9 +12,13 @@ class IndexController extends Controller
     public function Intro()
     {
         $dbComment = M('comment');
+        $dbconnect = M('article');
         $this->assign('pid', I('get.pid'));
         $arrComment = $dbComment->where(array('pid'=>I('get.pid')))->order('time desc')->limit(20)->select();
+        $contentmain = $dbconnect->where(array('pid'=>I('get.pid')))->select();
+        $content = $contentmain[0]['content'];
         $this->assign('arrComment',$arrComment);
+        $this->assign('content',$content);
         $this->show();
     }
 

@@ -29,10 +29,11 @@
                 <br />
             </div>
             <div class="mid">
-                <div style="text-align:center"><img src="http://i0.qhimg.com/dr/200__/t014637b89671031f41.jpg" style="display:inline-block"></div>
-                <div style="display:inline-block;"><span>唐立民先生是中国共产党党员，大连理工大学原工程力学系教授，我国著名的力学家、教育家。1924年6月7日出生于河北省秦皇岛市。1946年，唐立民毕业于天津工商学院土木系。大学期间，唐立民不仅学习专业，还是工商学院管弦乐队的首席小提琴兼队长。大学毕业后，在唐山交通大学土木系任教。
-
-                    1948年8月，他留学美国，1949年获密歇根大学土木系结构力学硕士学位，1950年又获数学系(数理统计)硕士学位，同时参加两项科研。抗美援朝战争爆发后，他毅然回国，先在政务院财政经济委员会计划局重工业计划处任职。1952年调至上海航务学院和大连海运学院。自1953年起，一直任教于大连工学院(现为大连理工大学)，先后任数理力学系副系主任、工程力学系系主任、工程力学研究所副所长、研究生院院长等职务。1977年被评为教授。1981年为计算力学学科首批博士导师。因病医治无效，2013年1月16日0点20分在大连逝世，享年89周岁。</span></div>
+            <section style="max-width: 100%; margin: 0.8em 0px 0.5em; overflow: hidden; box-sizing: border-box; padding: 0px;">
+                        <section class="135brush" data-brushtype="text" placeholder="请输入标题" style="height: 36px; display: inline-block; color: rgb(255, 255, 255); font-size: 16px; font-weight: bold; padding: 0px 10px; line-height: 36px; float: left; vertical-align: top; background-color: rgb(30, 155, 232); box-sizing: border-box !important; margin: 0px;"><a id="return" href="__URL__/Index/">返回</a></section>
+                    </section>
+                <div style="text-align:center"><img id="personimg" style="display:inline-block;width:140px;height:200px;"></div>
+                <div style="display:inline-block;"><span style=" line-height:30px">&nbsp;&nbsp;&nbsp;&nbsp;{$content}</span></div>
             </div>
             <div class="bottom" style="text-align:left;color:black">
                 <div>
@@ -97,8 +98,12 @@
 </body>
 <script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
 <script type="text/javascript">
+
+
 $(document).ready(function() {
     var pid = <?=$pid?>;
+    var imgurl =" __ROOT__/Public/img/"+pid+".jpg";
+    $("#personimg").attr("src",imgurl);
     $("#btnSubmit").click(function() {
         var nickname = $("#txtNickname").val();
         var comment = $("#txtComment").val();
@@ -118,6 +123,7 @@ $(document).ready(function() {
         }, function(back) {
             if (back.status === 0) {
                 alert("评论成功");
+                 location.reload();
             } else {
                 alert("评论失败");
                 console.log(back);
@@ -137,6 +143,7 @@ $(document).ready(function() {
         }, function(back) {
             if (back.status === 0) {
                 alert("祈祷成功");
+                location.reload();
             } else {
                 alert("失败");
                 console.log(back);
@@ -156,6 +163,7 @@ $(document).ready(function() {
         }, function(back) {
             if (back.status === 0) {
                 alert("献花成功");
+                location.reload();
             } else {
                 alert("失败");
                 console.log(back);
